@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swaraj G. — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fixed Background Canvas for Video Scroll Animation -->
+  <div id="canvas-wrapper">
+    <canvas id="canvas"></canvas>
+    <div class="canvas-ambient-glow"></div>
+    <div class="canvas-vignette"></div>
+  </div>
+
+  <!-- Content Overlay -->
+  <div id="portfolio-container">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-role">
+        <span class="role-highlight">SOFTWARE DEVELOPER</span>
+        <span class="role-sub">AI &amp; ML ENTHUSIAST</span>
+      </div>
+      <div class="open-badge">
+        <span>OPEN TO INTERNSHIPS</span>
+        <span class="star-accent">✦</span>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <!-- Huge Background Watermark / Display Title -->
+      <div class="hero-bg-title-wrap">
+        <h1 class="hero-bg-title">PORTFOLIO</h1>
+      </div>
+
+      <!-- Overlaid Introduction Info -->
+      <div class="hero-front-content">
+        <span class="hero-script">Hello, I'm</span>
+        <h2 class="hero-name">SWARAJ G.</h2>
+        <p class="hero-subtitle">COMPUTER SCIENCE &amp; ENGINEERING STUDENT</p>
+
+        <div class="hero-details-row">
+          <div class="hero-bio-col">
+            <p class="hero-bio">
+              Motivated third-year CSE student interested in Artificial Intelligence, Machine Learning, Software Development and Data Analytics. Familiar with programming, web development, database management and AI-powered application concepts. Seeking an internship to apply technical knowledge and gain industry experience.
+            </p>
+            <div class="hero-location">
+              <span class="loc-icon">📍</span>
+              <span>Narasaraopet, Andhra Pradesh, India</span>
+            </div>
+          </div>
+
+          <div class="hero-stats-col">
+            <div class="stat-card">
+              <span class="stat-label">CGPA</span>
+              <span class="stat-val red-text">8.40</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-val red-text">4</span>
+              <span class="stat-label">PROJECTS</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-val red-text">100+</span>
+              <span class="stat-label">CODING<br>EXERCISES</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-header-row">
+        <h2 class="section-title">SELECTED PROJECTS</h2>
+        <a href="#projects" class="view-all-link">
+          <span>VIEW ALL PROJECTS</span>
+          <span class="arrow-icon">→</span>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: PredictX 360 -->
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/predictx360.jpg" alt="PredictX 360" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title"><span class="project-num">01</span> PREDICTX 360</h3>
+            <p class="project-desc">
+              AI-powered predictive maintenance concept; real-time sensor intelligence using NASA C-MAPSS FD003, Isolation Forest and Random Forest for anomaly detection, self-healing and continuous model retraining.
+            </p>
+            <div class="project-tech">Tech: PySpark, Scikit-learn, Streamlit</div>
+          </div>
+        </article>
+
+        <!-- Project 2: StyleAI -->
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/styleai.jpg" alt="StyleAI" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title"><span class="project-num">02</span> STYLEAI</h3>
+            <p class="project-desc">
+              Generative AI fashion recommendation system for outfits, hairstyles, footwear and colour palettes.
+            </p>
+            <div class="project-tech">Tech: Python, FastAPI, HTML, CSS, JavaScript, Gemini AI</div>
+          </div>
+        </article>
+
+        <!-- Project 3: ResQTrail -->
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/resqtrail.jpg" alt="ResQTrail" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title"><span class="project-num">03</span> RESQTRAIL</h3>
+            <p class="project-desc">
+              AI tourist safety concept using geofencing and blockchain digital identity; emergency alerts, anomaly detection, safety scoring and location tracking for low-network areas.
+            </p>
+          </div>
+        </article>
+
+        <!-- Project 4: Moveoo -->
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/moveoo.jpg" alt="Moveoo" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title"><span class="project-num">04</span> MOVEOO</h3>
+            <p class="project-desc">
+              Flutter smart ride-booking app concept for city rides, outstation travel, car rentals and driver hiring; UI/UX and app navigation.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3-Column Section: Education & Skills | Training & Learning | Quote & Soft Skills -->
+    <section class="info-section">
+      <div class="info-grid">
+        <!-- Column 1: Education & Skills -->
+        <div class="info-col education-col">
+          <h2 class="col-main-title">EDUCATION &amp; SKILLS</h2>
+          
+          <div class="sub-block">
+            <h3 class="red-subheading">EDUCATION</h3>
+            <h4 class="edu-degree">Bachelor of Technology – Computer Science and Engineering</h4>
+            <p class="edu-college">Narasaraopeta Engineering College</p>
+            <p class="edu-meta">3rd Year | Expected Graduation 2028</p>
+            <p class="edu-cgpa">CGPA: 8.40</p>
+          </div>
+
+          <div class="col-divider"></div>
+
+          <div class="sub-block">
+            <h3 class="red-subheading">SKILLS</h3>
+            <div class="skills-tag-grid">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Flutter</span>
+              <span class="skill-tag">Dart</span>
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">Generative AI</span>
+              <span class="skill-tag">Gemini AI</span>
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">ML Fundamentals</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">Matplotlib</span>
+              <span class="skill-tag">Seaborn</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Jupyter Notebook</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">n8n</span>
+              <span class="skill-tag">Qiskit</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Training & Learning (Timeline) -->
+        <div class="info-col training-col">
+          <h2 class="col-main-title">TRAINING &amp; LEARNING</h2>
+
+          <div class="timeline-container">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-node">
+                <div class="node-icon">&lt;/&gt;</div>
+              </div>
+              <div class="timeline-content">
+                <h3 class="timeline-title red-text">byteXL CRT Training</h3>
+                <p class="timeline-desc">
+                  Three-week technical training under Shravan Kumar Manthri; Python programs, patterns, lists, functions, recursion and strings.
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-node">
+                <div class="node-icon">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h3 class="timeline-title red-text">DSA</h3>
+                <p class="timeline-desc">
+                  Searching, sorting, linked lists, time and space complexity; practiced 100+ programming exercises.
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+              <div class="timeline-node">
+                <div class="node-icon">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h3 class="timeline-title red-text">AI Tools Workshop</h3>
+                <p class="timeline-desc">
+                  Vitality Universe; explored AI tools and content generation; created an AI-generated Rolls-Royce promotional video.
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+              <div class="timeline-node">
+                <div class="node-icon">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(30 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(-30 12 12)"/></svg>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h3 class="timeline-title red-text">Quantum Computing</h3>
+                <p class="timeline-desc">
+                  Qiskit, Qiskit Aer and IBM Quantum Runtime; quantum-circuit creation and Bell-state implementation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Quote & Soft Skills Card -->
+        <div class="info-col quote-col">
+          <div class="quote-card-box">
+            <span class="quote-symbol">“</span>
+            <div class="quote-lines">
+              <p>Dream Big.</p>
+              <p>Code Better.</p>
+              <p>Build the Future.</p>
+            </div>
+            <div class="quote-author">
+              <span class="sig-font">Swaraj G.</span>
+            </div>
+
+            <div class="soft-skills-divider"></div>
+
+            <div class="soft-skills-section">
+              <h3 class="red-subheading">SOFT SKILLS &amp; INTERESTS</h3>
+              <p class="soft-skills-text">
+                <strong>Soft Skills:</strong> Problem-solving, logical and analytical thinking, communication, team collaboration, adaptability, quick learning, creative thinking.
+              </p>
+              <p class="interests-text">
+                <strong>Interests:</strong> Artificial Intelligence &amp; Machine Learning, Software Development, Data Analytics, Generative AI, Full-Stack Development, Emerging Technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's Connect Footer -->
+    <footer class="contact-footer">
+      <div class="footer-main-row">
+        <!-- Left: LET'S CONNECT -->
+        <div class="connect-title-wrap">
+          <h2 class="connect-title">LET'S<br>CONNECT</h2>
+          <span class="connect-star">✦</span>
+        </div>
+
+        <!-- Middle: Contact list -->
+        <div class="contact-details-list">
+          <a href="tel:9381390214" class="contact-item">
+            <span class="contact-icon-circle">📞</span>
+            <span>9381390214</span>
+          </a>
+          <a href="mailto:saiswaraj1105@gmail.com" class="contact-item">
+            <span class="contact-icon-circle">✉️</span>
+            <span>saiswaraj1105@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/swaraj-gudipati-80aa57422" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon-circle">in</span>
+            <span>linkedin.com/in/swaraj-gudipati-80aa57422</span>
+          </a>
+          <div class="contact-item">
+            <span class="contact-icon-circle">📍</span>
+            <span>Narasaraopet, Andhra Pradesh, India</span>
+          </div>
+        </div>
+
+        <!-- Right: Laptop setup graphic -->
+        <div class="footer-laptop-wrap">
+          <img src="assets/laptop-setup.png" alt="Workspace setup" class="footer-laptop-img" />
+        </div>
+      </div>
+
+      <!-- Declaration Bar -->
+      <div class="declaration-bar">
+        <p class="dec-text">I hereby declare that the information provided above is true and correct to the best of my knowledge.</p>
+        <div class="dec-meta-row">
+          <div class="dec-place-date">Place: Chilakaluripeta &nbsp;|&nbsp; Date: 07/11/2026</div>
+          <div class="dec-signature">Signature: <span class="sig-script">G. Swaraj</span></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
